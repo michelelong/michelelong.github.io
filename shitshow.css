@@ -1,0 +1,35 @@
+.boxa {
+    text-align: center;
+    max-width: 100%;
+}
+
+.boxb {
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+
+.boxc {
+    float: right;
+    width: 50%;
+    height: 50%;
+}
+
+img {
+    display: block;
+    margin: auto;
+}
+
+.boxd {
+    clear: both;
+    padding: 10px 10px 10px 10px;
+}
+
+.boxe {
+
+    clear: both;
+    text-align: center;
+    width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+}
