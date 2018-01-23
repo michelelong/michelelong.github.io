@@ -18,6 +18,7 @@
 img {
     display: block;
     margin: auto;
+    cursor: pointer;
 }
 
 .boxd {
