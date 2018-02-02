@@ -1,9 +1,10 @@
-let shitshow = document.querySelector(".boxb");
-let rainbows = document.querySelector(".boxc");
+const shitshow = document.querySelector(".boxb");
+const rainbows = document.querySelector(".boxc");
+const result = document.getElementById("result");
 
 shitshow.addEventListener("click", function(){
-	document.getElementById("result").innerHTML = "I'm sorry! I hope tomorrow is better!";
+	result.textContent = "I'm sorry! I hope tomorrow is better!";
 	});
 rainbows.addEventListener("click", function(){
-	document.getElementById("result").innerHTML = "That's great! Share your good fortune!";
+	result.textContent = "That's great! Share your good fortune!";
 	});
