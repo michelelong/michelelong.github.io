@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
-  <title>Javascript Test</title>
+  <title>How was your day?</title>
   <link rel="stylesheet" href="shitshow.css" />
-  </head>
-  <body>
-   <div class="container">
-      <div class="boxa"><h2>Was today a shit show or was it rainbows?</h2></div>
-      <div class="boxd"><p></p></div>
-      <div class="boxb"><img onclick="check_day(shitshow = true)" src="emojipoo-remix-300px.png" alt="poo emoji" height="150px"></div>
-      <div class="boxc"><img onclick="check_day(shitshow = false)" src="Rainbow-300px.png" alt="rainbow"></div>
-      <div class="boxd"><p></p></div>
-      <div class="boxe"><p id="result">Choose one!</p></div>
+</head>
+
+<body>
+  <div class="container">
+    <div id="boxa">
+      <p class="headline">Was today a shit show or was it rainbows?</p>
     </div>
-  <script src="shitshow.js"></script>      
-  </body>
-  </html>
+    <div class="center">
+      <img id="boxb" height="150px" src="emojipoo-remix-300px.png" alt="poo emoji" />
+      <img id="boxc" src="Rainbow-300px.png" alt="rainbow" />
+    </div>
+  </div>
+  <script src="shitshow.js"></script>
+</body>
+
+</html>

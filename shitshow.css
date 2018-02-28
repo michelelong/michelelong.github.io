@@ -1,35 +1,44 @@
-.boxa {
-    text-align: center;
-    max-width: 100%;
+body.yuck {
+  background-image: url(poopbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.boxb {
-    float: left;
-    width: 50%;
-    height: 50%;
+body.spew {
+  background-image: url(rainbowbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.boxc {
-    float: right;
-    width: 50%;
-    height: 50%;
+.headline {
+  font-size: 26px;
+  font-weight: 600;
+}
+
+#boxa {
+  text-align: center;
+  max-width: 100%;
+}
+
+#boxb {
+  padding-right: 5%;
+}
+
+#boxc {
+  padding-left: 5%;
 }
 
 img {
-    display: block;
-    margin: auto;
+  margin: auto auto auto auto;
+  cursor: pointer;
 }
 
-.boxd {
-    clear: both;
-    padding: 10px 10px 10px 10px;
+#boxb.hidden,
+#boxc.hidden {
+  display: none;
 }
 
-.boxe {
-
-    clear: both;
-    text-align: center;
-    width: 100%;
-    font-size: 20px;
-    font-weight: bold;
+.center {
+  text-align: center;
+  padding: 3% 0% 4% 0%;
 }
