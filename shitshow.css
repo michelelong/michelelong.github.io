@@ -15,6 +15,7 @@ body.spew {
   font-weight: 600;
 }
 
+<<<<<<< HEAD
 #boxa {
   text-align: center;
   max-width: 100%;
@@ -22,6 +23,12 @@ body.spew {
 
 #boxb {
   padding-right: 5%;
+=======
+img {
+    display: block;
+    margin: auto;
+    cursor: pointer;
+>>>>>>> 77adf07d08c11b928d2e1994a5a108e4c8f2cf85
 }
 
 #boxc {

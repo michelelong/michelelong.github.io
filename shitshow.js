@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 const shitshow = document.querySelector("#boxb");
 const rainbows = document.querySelector("#boxc");
 const hideRainbow = document.getElementById("boxc");
@@ -44,3 +45,15 @@ rainbows.addEventListener("click", function () {
 		hideRainbow.style.display = "none";
 	}
 });
+=======
+const shitshow = document.querySelector(".boxb");
+const rainbows = document.querySelector(".boxc");
+const result = document.getElementById("result");
+
+shitshow.addEventListener("click", function(){
+	result.textContent = "I'm sorry! I hope tomorrow is better!";
+	});
+rainbows.addEventListener("click", function(){
+	result.textContent = "That's great! Share your good fortune!";
+	});
+>>>>>>> 77adf07d08c11b928d2e1994a5a108e4c8f2cf85
