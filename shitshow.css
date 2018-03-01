@@ -11,6 +11,7 @@ body.spew {
 }
 
 .headline {
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
   font-size: 26px;
   font-weight: 600;
 }
@@ -29,7 +30,7 @@ body.spew {
 }
 
 img {
-  margin: 0 auto;
+  margin: 5% auto;
   cursor: pointer;
 }
 
