@@ -34,8 +34,7 @@ img {
   cursor: pointer;
 }
 
-#boxb.hidden,
-#boxc.hidden {
+.hidden {
   display: none;
 }
 
