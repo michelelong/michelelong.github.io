@@ -1,2 +1,2 @@
 # shitshow
-My first javascript test
+Testing additional javascript functionality
