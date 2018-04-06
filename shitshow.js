@@ -16,12 +16,12 @@ function animation(state) {
     meter.style.animationPlayState = "running";
   }
 }
-
+//Wait for click on poop emoji, hide rainbow, and turn on meter
 shitshow.addEventListener("click", function() {
   headline.textContent = "How bad was your day?";
   hideRainbow.className = "hidden";
   meter.className = "shit-meter";
-
+  //Pause/start meter, change headlines, and display new images
   howBadIsIt -= 1;
   if (howBadIsIt === -1) {
     animation("start");
@@ -49,7 +49,7 @@ shitshow.addEventListener("click", function() {
     meter.className = "hidden";
   }
 });
-
+//Wait for click on rainbow, hide poop, and turn on meter
 rainbows.addEventListener("click", function() {
   headline.textContent = "How nice was your day?";
   hideShit.className = "hidden center";

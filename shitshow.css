@@ -5,12 +5,15 @@
   }
 }
 
+div {
+  outline: #cf8700 solid 1px;
+}
 .grid-container {
   display: flex;
-  }
+}
 
 .col-1 {
-  grid-column: 1 / 5;
+  width: 100%;
 }
 
 body.yuck {
@@ -102,5 +105,5 @@ img {
 
 .center {
   text-align: center;
-  padding: 2% 0 2% 0;
+  padding: 1% 0 1% 0;
 }
