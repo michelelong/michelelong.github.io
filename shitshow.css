@@ -5,9 +5,6 @@
   }
 }
 
-div {
-  outline: #cf8700 solid 1px;
-}
 .grid-container {
   display: flex;
 }
