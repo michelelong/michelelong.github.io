@@ -1,0 +1,106 @@
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 75%;
+  }
+}
+
+.grid-container {
+  display: flex;
+}
+
+.col-1 {
+  width: 100%;
+}
+
+body.yuck {
+  background-image: url(poopbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+body.spew {
+  background-image: url(rainbowbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.headline {
+  text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+#meter {
+  margin: 0 auto;
+  height: 10px;
+  width: 42%;
+  margin: 1% 30% 1% 30%;
+  border-radius: 5px;
+  border-style: outset;
+  border-color: gray;
+}
+
+.shit-meter {
+  animation-name: shit-meter;
+  animation-duration: 3s;
+  background: linear-gradient(-45deg, #945900, #aa6702, #cf8700);
+  -webkit-animation: shit-meter;
+  -moz-animation: shit-meter;
+  animation: shit-meter;
+  -webkit-animation-name: shit-meter;
+  -webkit-animation-duration: 3s;
+}
+
+@keyframes shit-meter {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 42%;
+  }
+}
+
+.rainbow-meter {
+  animation-name: color-meter;
+  animation-duration: 3s;
+  background: linear-gradient(-45deg, #e73c7e, #eed152, #23d5ab, #23a6d5);
+  -webkit-animation: color-meter;
+  -moz-animation: color-meter;
+  animation: color-meter;
+  -webkit-animation-name: color-meter;
+  -webkit-animation-duration: 3s;
+}
+
+@keyframes color-meter {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 42%;
+  }
+}
+
+#boxb {
+  padding-right: 5%;
+}
+
+#boxc {
+  padding-left: 5%;
+}
+
+img {
+  margin: 0 auto;
+  cursor: pointer;
+  max-width: 100%;
+  height: auto;
+}
+
+.hidden {
+  display: none;
+}
+
+.center {
+  text-align: center;
+  padding: 1% 0 1% 0;
+}
