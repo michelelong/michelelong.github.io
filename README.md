@@ -1,2 +1,2 @@
 # shitshow
-Testing additional javascript functionality
+Testing javascript
