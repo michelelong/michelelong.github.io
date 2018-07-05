@@ -33,11 +33,11 @@ draw = function(board) {
   }
 };
 
-function testWin(value, index, array) {
+testWin = function(value, index, array) {
   return (
     index === 0 || (value === array[index - 1] && array[index - 1] !== " ")
   );
-}
+};
 
 won = function(board) {
   winCombos.forEach(function(row) {
