@@ -1,18 +1,15 @@
-.grid-container {
-  display: grid;
-  grid-template-areas:
-    "head"
-    "choice choice";
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .headline {
-  grid-area: "head";
   font-size: 1.6rem;
   font-weight: 600;
 }
 
 img {
-  grid-area: "choice";
   max-width: 100%;
   height: auto;
   padding: 2%;
