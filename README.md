@@ -1,2 +1,0 @@
-# shitshow
-Testing javascript
